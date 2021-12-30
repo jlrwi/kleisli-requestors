@@ -40,7 +40,7 @@ const req_type = requestor_type();
 //MD kleisli-type requestors and return a pair with concatenated log values.
 //MD The `log_type` parameter must be a
 //MD [curried-static-land](https://github.com/jlrwi/curried-static-land)
-//MD monoid.
+//MD monoidal type module.
 //MD The optional `options` object may specify a `time_limit` property./p
 //MD Usage:/p
 //MD ```/p
