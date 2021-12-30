@@ -1,0 +1,28 @@
+{
+  "name": "kleisli-requestors",
+  "version": "1.0.0",
+  "description": "Kleisli-type requestors for curried-parseq",
+  "main": "index.js",
+  "homepage": "https://github.com/jlrwi/kleisli-requestors",
+  "repository": "github:jlrwi/kleisli-requestors",
+  "files": [
+    "/src"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "stage": "extract-doc ./src/kleisli_requestors.js README.md & extract-min ./src/kleisli_requestors.js index.js"
+  },
+  "author": "Jonathan Reimer",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@jlrwi/combinators": "github:jlrwi/combinators",
+    "@jlrwi/curried-parseq": "github:jlrwi/curried-parseq",
+    "@jlrwi/esfunctions": "github:jlrwi/esfunctions",
+    "@jlrwi/requestor-type": "github:jlrwi/requestor-type",
+    "@jlrwi/requestors": "github:jlrwi/requestors"
+  },
+  "devDependencies": {
+    "@jlrwi/es-static-types": "github:jlrwi/es-static-types"
+  }
+}
